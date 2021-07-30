@@ -1,0 +1,10 @@
+name: 'daux.io documentation generator'
+description: 'Generates the documentation based upon daux.io'
+author: 'schakko'
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'upload-cloud'
+  color: 'blue'
