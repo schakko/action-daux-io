@@ -7,6 +7,7 @@
 set -eo
 
 mkdir static
+# meh
 chown -R root:root *
 npm install
 composer install
