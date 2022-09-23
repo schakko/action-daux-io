@@ -1,4 +1,4 @@
-FROM neosit/daux-io-builder:latest
+FROM neosit/daux-io-builder:php-8.1
 
 COPY entrypoint.sh /entrypoint.sh
 

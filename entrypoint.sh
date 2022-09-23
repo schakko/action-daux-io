@@ -6,10 +6,7 @@
 # it does not exit with a 0, and I only care about the final exit.
 set -eo
 
-mkdir static
-# meh
-chown -R root:root *
 npm install
 composer install
 npx crafty run --verbose
-/usr/local/bin/daux generate
+daux generate
